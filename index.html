@@ -1,277 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anamika Upadhyay | DevOps Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anamika Upadhyay | DevOps & Cloud Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @keyframes pulse-glow {
+            0%, 100% { transform: scale(1); filter: drop-shadow(0 0 15px rgba(99, 102, 241, 0.4)); }
+            50% { transform: scale(1.03); filter: drop-shadow(0 0 25px rgba(99, 102, 241, 0.7)); }
+        }
+        .animate-glow { animation: pulse-glow 3s infinite ease-in-out; }
+    </style>
 </head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white overflow-x-hidden">
 
-<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] bg-gradient-to-b from-indigo-500/10 via-transparent to-transparent blur-3xl pointer-events-none"></div>
 
-    <div class="max-w-5xl mx-auto px-6 py-16">
-
-        <!-- Header -->
-        <header class="border-b border-slate-200 pb-10 mb-14 text-center md:text-left">
-            <h1 class="text-5xl font-extrabold text-slate-900 tracking-tight">
-                Anamika Upadhyay
-            </h1>
-
-            <p class="text-2xl text-indigo-600 font-semibold mt-3">
-                DevOps Engineer | Cloud & Kubernetes Specialist
-            </p>
-
-            <div class="mt-5 flex flex-wrap justify-center md:justify-start gap-5 text-sm text-slate-600">
-                <span>📧 anamikaupadhya441@example.com</span>
-                <span>💼 linkedin.com/in/anamika-upadhyay</span>
-                <span>🌐 Open to Remote DevOps & Cloud Projects</span>
+    <div class="max-w-5xl mx-auto px-6 py-16 relative z-10">
+        
+        <header class="border-b border-slate-800 pb-10 mb-14 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-6" data-aos="fade-down" data-aos-duration="1000">
+            <div>
+                <h1 class="text-5xl font-extrabold text-white tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-400">Anamika Upadhyay</h1>
+                <p class="text-2xl text-indigo-400 font-semibold mt-3 flex items-center justify-center md:justify-start gap-2">
+                    <span class="flex h-3 w-3 rounded-full bg-emerald-500 animate-ping"></span>
+                    DevOps Engineer | Cloud & Kubernetes Specialist
+                </p>
+                <div class="mt-5 flex flex-wrap justify-center md:justify-start gap-5 text-sm text-slate-400">
+                    <a href="mailto:anamikaupadhya441@gmail.com" class="hover:text-indigo-400 transition-colors">📧 anamikaupadhya441@gmail.com</a>
+                    <a href="https://linkedin.com/in/anamika-upadhyay" target="_blank" class="hover:text-indigo-400 transition-colors">💼 linkedin.com/in/anamika-upadhyay</a>
+                    <span class="text-emerald-400 font-medium">🌐 Available for Global Remote Projects</span>
+                </div>
+            </div>
+            <div class="w-28 h-28 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-4xl shadow-xl border border-indigo-400/20 animate-glow">
+                ♾️
             </div>
         </header>
 
-        <!-- About -->
-        <section class="bg-indigo-50 border-l-4 border-indigo-600 p-7 rounded-r-xl mb-14 shadow-sm">
-            <p class="text-lg leading-8 text-indigo-950 font-medium">
-                DevOps Engineer with 4+ years of experience in AWS cloud infrastructure,
-                Kubernetes orchestration, CI/CD automation, and Infrastructure as Code.
-                Skilled in building scalable, secure, and highly available systems across
-                AWS, Azure, and GCP with expertise in Terraform, Jenkins, Docker,
-                Kubernetes, ArgoCD, and monitoring solutions.
+        <section class="bg-slate-800/40 backdrop-blur-md border border-slate-700/40 p-8 rounded-2xl mb-14 shadow-xl" data-aos="fade-up" data-aos-duration="1000">
+            <p class="text-xl leading-relaxed text-indigo-100 font-medium">
+                DevOps Engineer with 4+ years of hands-on experience engineering scalable cloud infrastructure, managing Kubernetes environments, and mapping resilient CI/CD pipelines. Expert at driving platform automation to elevate software delivery speed and reliability.
             </p>
         </section>
 
-        <!-- Skills -->
         <section class="mb-14">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6">
-                🛠️ Tech Stack & Expertise
+            <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3" data-aos="fade-right">
+                <span class="text-indigo-400">🛠️</span> Core Tech Architecture
             </h2>
-
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        Cloud Platforms
-                    </h3>
-                    <p>AWS, Azure, Google Cloud Platform (GCP)</p>
+                <div class="bg-slate-800/30 p-6 rounded-xl border border-slate-800 hover:border-indigo-500/40 hover:bg-slate-800/60 transition-all duration-300 group" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="text-lg font-bold text-indigo-400 mb-2 group-hover:translate-x-1 transition-transform">☁️ Cloud Platforms</h3>
+                    <p class="text-slate-300">AWS (Primary), Azure, Google Cloud Platform (GCP)</p>
                 </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        AWS Services
-                    </h3>
-                    <p>EC2, EKS, S3, Lambda, VPC, IAM, Route53, SNS, CloudTrail</p>
+                <div class="bg-slate-800/30 p-6 rounded-xl border border-slate-800 hover:border-indigo-500/40 hover:bg-slate-800/60 transition-all duration-300 group" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-lg font-bold text-indigo-400 mb-2 group-hover:translate-x-1 transition-transform">🏗️ Infrastructure as Code</h3>
+                    <p class="text-slate-300">Terraform, Ansible, Driftctl, Helm Charts</p>
                 </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        Infrastructure as Code
-                    </h3>
-                    <p>Terraform, Ansible</p>
+                <div class="bg-slate-800/30 p-6 rounded-xl border border-slate-800 hover:border-indigo-500/40 hover:bg-slate-800/60 transition-all duration-300 group" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="text-lg font-bold text-indigo-400 mb-2 group-hover:translate-x-1 transition-transform">☸️ Containers & Kubernetes</h3>
+                    <p class="text-slate-300">Docker, Kubernetes Core, Amazon EKS, Azure AKS, Google GKE</p>
                 </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        CI/CD & GitOps
-                    </h3>
-                    <p>Jenkins, GitHub Actions, GitLab CI/CD, ArgoCD</p>
+                <div class="bg-slate-800/30 p-6 rounded-xl border border-slate-800 hover:border-indigo-500/40 hover:bg-slate-800/60 transition-all duration-300 group" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-lg font-bold text-indigo-400 mb-2 group-hover:translate-x-1 transition-transform">🔄 CI/CD Loops & GitOps</h3>
+                    <p class="text-slate-300">Jenkins, ArgoCD, GitHub Actions, GitLab CI/CD</p>
                 </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        Containers & Orchestration
-                    </h3>
-                    <p>Docker, Kubernetes, Helm, AWS EKS, Azure AKS, GCP GKE</p>
-                </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">
-                        Monitoring & Observability
-                    </h3>
-                    <p>Prometheus, Grafana, Kibana, Datadog, Stackdriver, Sumo Logic</p>
-                </div>
-
             </div>
         </section>
 
-        <!-- Experience -->
         <section class="mb-14">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6">
-                💼 Professional Experience
+            <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3" data-aos="fade-right">
+                <span class="text-indigo-400">💼</span> Experience Timeline
             </h2>
-
-            <div class="space-y-8">
-
-                <!-- Paytm -->
-                <div class="bg-white p-7 rounded-2xl shadow-sm border border-slate-100">
-                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                        <div>
-                            <h3 class="text-2xl font-bold text-slate-900">
-                                DevOps Engineer — Paytm
-                            </h3>
-                            <p class="text-indigo-600 font-medium">Noida</p>
-                        </div>
-
-                        <span class="text-sm text-slate-500 mt-2 md:mt-0">
-                            Aug 2025 – Present
-                        </span>
+            <div class="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:bg-slate-800">
+                
+                <div class="relative flex flex-col md:flex-row items-start justify-between gap-4 md:gap-0" data-aos="fade-right">
+                    <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500 border-4 border-slate-900 z-20"></div>
+                    <div class="w-full md:w-[46%] bg-slate-800/20 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-all">
+                        <span class="text-xs font-semibold tracking-wider text-indigo-400 uppercase">Aug 2025 – Present</span>
+                        <h3 class="text-xl font-bold text-white mt-1">DevOps Engineer</h3>
+                        <h4 class="text-slate-400 font-medium text-sm mb-3">Paytm | Noida</h4>
+                        <ul class="list-disc pl-4 space-y-1.5 text-sm text-slate-400">
+                            <li>Architected resilient cloud environments utilizing AWS EKS, S3, VPC, and Lambda via declarative Terraform.</li>
+                            <li>Engineered smooth automated delivery pipelines with Jenkins and GitOps deployment logic via ArgoCD.</li>
+                            <li>Optimized tracking & debugging with unified Prometheus, Grafana, and Kibana monitoring infrastructure.</li>
+                        </ul>
                     </div>
-
-                    <ul class="list-disc pl-5 space-y-2 text-slate-700 leading-7">
-                        <li>Architected and managed scalable AWS infrastructure using EC2, EKS, S3, Lambda, Route53, SNS, and Terraform.</li>
-                        <li>Built CI/CD pipelines using Jenkins and ArgoCD for automated deployments and zero-downtime releases.</li>
-                        <li>Implemented centralized monitoring using Prometheus, Grafana, and Kibana to improve observability.</li>
-                        <li>Automated infrastructure provisioning and configuration management using Terraform and Ansible.</li>
-                        <li>Integrated AI-driven automation workflows to improve deployment efficiency.</li>
-                        <li>Performed troubleshooting, production support, and incident resolution.</li>
-                    </ul>
+                    <div class="w-[46%] hidden md:block"></div>
                 </div>
 
-                <!-- Harman -->
-                <div class="bg-white p-7 rounded-2xl shadow-sm border border-slate-100">
-                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                        <div>
-                            <h3 class="text-2xl font-bold text-slate-900">
-                                Software Engineer — Harman Connected Services
-                            </h3>
-                            <p class="text-indigo-600 font-medium">Pune</p>
-                        </div>
-
-                        <span class="text-sm text-slate-500 mt-2 md:mt-0">
-                            Apr 2022 – Aug 2025
-                        </span>
+                <div class="relative flex flex-col md:flex-row-reverse items-start justify-between gap-4 md:gap-0" data-aos="fade-left">
+                    <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-violet-500 border-4 border-slate-900 z-20"></div>
+                    <div class="w-full md:w-[46%] bg-slate-800/20 p-6 rounded-2xl border border-slate-800 hover:border-slate-700 transition-all">
+                        <span class="text-xs font-semibold tracking-wider text-violet-400 uppercase">Apr 2022 – Aug 2025</span>
+                        <h3 class="text-xl font-bold text-white mt-1">Software Engineer (DevOps)</h3>
+                        <h4 class="text-slate-400 font-medium text-sm mb-3">Harman Connected Services | Pune</h4>
+                        <ul class="list-disc pl-4 space-y-1.5 text-sm text-slate-400">
+                            <li>Managed orchestration layers across AWS EKS, Azure AKS, and GCP GKE multi-cloud layouts.</li>
+                            <li>Accelerated pipeline deployment loops and software delivery mechanics by up to 60%.</li>
+                            <li>Mitigated environment drift across distributed enterprise assets using Terraform and driftctl.</li>
+                        </ul>
                     </div>
-
-                    <ul class="list-disc pl-5 space-y-2 text-slate-700 leading-7">
-                        <li>Implemented multi-cloud Kubernetes infrastructure across AWS EKS, Azure AKS, and GCP GKE.</li>
-                        <li>Improved software delivery efficiency by 60% using Jenkins and GitLab CI/CD automation.</li>
-                        <li>Built observability solutions using Prometheus, Grafana, Datadog, and Stackdriver.</li>
-                        <li>Created Dockerized deployment pipelines for microservices applications.</li>
-                        <li>Reduced infrastructure drift using Terraform and driftctl.</li>
-                        <li>Supported production deployments, troubleshooting, and release optimization.</li>
-                    </ul>
+                    <div class="w-[46%] hidden md:block"></div>
                 </div>
 
             </div>
         </section>
 
-        <!-- Projects -->
-        <section class="mb-14">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6">
-                🚀 Featured Projects
-            </h2>
-
-            <div class="space-y-6">
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">
-                        Kubernetes CI/CD Automation Pipeline
-                    </h3>
-
-                    <p class="text-slate-600 leading-7 mb-4">
-                        Built automated deployment pipelines using Jenkins, Docker,
-                        Kubernetes, and ArgoCD with rolling and canary deployment
-                        strategies on AWS EKS.
-                    </p>
-
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">Kubernetes</span>
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">Jenkins</span>
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">ArgoCD</span>
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">AWS EKS</span>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">
-                        Infrastructure Automation
-                    </h3>
-
-                    <p class="text-slate-600 leading-7 mb-4">
-                        Automated cloud infrastructure provisioning and environment
-                        configuration using Terraform and Ansible for scalable,
-                        production-ready deployments.
-                    </p>
-
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">Terraform</span>
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">Ansible</span>
-                        <span class="bg-slate-100 px-3 py-1 text-sm rounded-full">AWS</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Certifications -->
-        <section class="mb-14">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6">
-                📜 Certifications
-            </h2>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="font-semibold text-slate-900">
-                        AWS Certified Cloud Practitioner
-                    </h3>
-                    <p class="text-sm text-slate-500 mt-1">
-                        Amazon Web Services — Nov 2022
-                    </p>
-                </div>
-
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                    <h3 class="font-semibold text-slate-900">
-                        GitHub Foundations Certification
-                    </h3>
-                    <p class="text-sm text-slate-500 mt-1">
-                        GitHub — Sep 2024
-                    </p>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section class="mb-14">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6">
-                🎓 Education
-            </h2>
-
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                <h3 class="text-xl font-bold text-slate-900">
-                    Bachelor of Technology (B.Tech)
-                </h3>
-
-                <p class="text-indigo-600 font-medium mt-1">
-                    Electronics & Communication Engineering
-                </p>
-
-                <p class="text-slate-600 mt-2">
-                    AKTU, Lucknow | 2018 – 2022
-                </p>
-
-                <p class="text-slate-600">
-                    CGPA: 8.6/10
-                </p>
-            </div>
-        </section>
-
-        <!-- CTA -->
-        <section class="text-center bg-slate-900 text-white rounded-3xl p-10">
-            <h2 class="text-3xl font-bold mb-3">
-                Let’s Build Scalable Infrastructure
-            </h2>
-
-            <p class="text-slate-400 mb-7 text-lg">
-                Open to DevOps, Cloud, Kubernetes, CI/CD, and Infrastructure Automation projects.
-            </p>
-
-            <a href="mailto:your-email@example.com"
-                class="inline-block bg-indigo-600 hover:bg-indigo-500 transition-colors text-white font-semibold px-8 py-4 rounded-xl">
-                Contact Me
+        <section class="text-center bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 text-white rounded-3xl p-10 border border-indigo-500/20 relative overflow-hidden shadow-2xl" data-aos="flip-up" data-aos-duration="1200">
+            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-indigo-500/10 rounded-full blur-2xl pointer-events-none"></div>
+            <h2 class="text-3xl font-extrabold mb-3">Let's build scalable infrastructure together</h2>
+            <p class="text-slate-400 mb-8 text-lg max-w-xl mx-auto">Looking for automated deployment pipelines, infrastructure modernizations, or robust monitoring solutions?</p>
+            <a href="mailto:anamikaupadhya441@gmail.com" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 active:scale-95 transition-all text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-indigo-600/20">
+                🚀 Send an Email Invitation
             </a>
         </section>
-
+        
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100
+        });
+    </script>
 </body>
 </html>
